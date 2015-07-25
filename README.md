@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###run_analyis.R README.txt
 
 #Written by Micaela on July 24, 2015
@@ -45,3 +46,6 @@ has six rows of data corresponding to the six types of activity.  The columns ar
 aggregated means for the variables.  
 
 
+=======
+# Getting-and-Cleaning-Data-Assignment
+>>>>>>> e00c769b671671ee138695c321e5a6dd7bd284a3
