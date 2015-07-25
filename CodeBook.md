@@ -1,10 +1,10 @@
-##Code Book for Getting and Cleaning Data Course Project
+#Code Book for Getting and Cleaning Data Course Project
 
-#Dataset used:
+##Dataset used:
 The dataset is the Human Activity Recognition Using Smartphones Data Set from the 
 UCI Machine Learning Repository (UCI HAR). 
 
-#Description of study:
+##Description of study:
 Wearable technology is becoming more and more common.  Researchers in Spain and Italy
 tested the ability of a readily available technology (smartphones) to capture human
 movement during different types of daily activity.  
@@ -14,7 +14,7 @@ Walking upstairs, Walking downstairs, Sitting, Standing, Laying).
 The phone's accelerometer and gyroscope captured movement while the subject did the 
 activities.
 
-#Source of data:
+###Source of data:
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and 
 Xavier Parra(2)1 - Smartlab - Non-Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
@@ -22,7 +22,7 @@ DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws 
 
-#Description of original data used:
+##Description of original data used:
 The UCI HAR dataset includes multiple files containing: a test dataset, a training 
 dataset, and information on the 561 different variables collected.  For the present 
 analyses, the following files were used:
@@ -38,7 +38,7 @@ analyses, the following files were used:
 More information about how the original researchers pre-processed the data and other files
 included in the dataset can be found in the README.txt in the original UCI HAR dataset.
 
-#Description of datasets formed for current analyses:
+##Description of datasets formed for current analyses:
 -A combined dataset was formed by merging together the training and testing datasets, as 
 well as adding in both Subject and Activity labels.  The dataframe "combined" has 
 dimensions of 10299 x 563. 
@@ -49,7 +49,7 @@ that contained either "mean()" or "std()". Dimensions = 10299 x 68.
 -"tidyData2" took the "mean_sd_data" dataset and averaged each variable
 for each activity and each subject. Dimensions = 180 x 68.
 
-#Variables 
+##Variables 
 -From the original UCI HAR README.txt, the authors collected and pre-processed the 
 following measurements:
 tBodyAcc-XYZ: time domain measure for Body Linear Acceleration
