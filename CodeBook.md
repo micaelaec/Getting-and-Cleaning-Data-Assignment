@@ -25,7 +25,7 @@ activityrecognition '@' smartlab.ws
 ##Description of original data used:
 The UCI HAR dataset includes multiple files containing: a test dataset, a training 
 dataset, and information on the 561 different variables collected.  For the present 
-analyses, the following files were used:
+analyses, the following files were used:  
     - 'X_train.txt' : Data for 70% of the subjects  
     - 'X_test.txt' : Data for 30% of the subjects, exact same variables as the train dataset  
     - 'y_train.txt' : Labels for the training dataset  
@@ -51,7 +51,7 @@ for each activity and each subject. Dimensions = 180 x 68.
 
 ##Variables 
 From the original UCI HAR README.txt, the authors collected and pre-processed the 
-following measurements:
+following measurements:  
     - tBodyAcc-XYZ: time domain measure for Body Linear Acceleration  
     - tGravityAcc-XYZ: time domain measure for Gravity Acceleration  
     - tBodyAccJerk-XYZ: Jerk signal derived in time for Body Linear Acceleration  
@@ -71,7 +71,7 @@ following measurements:
     - fBodyGyroJerkMag: fast Fourier Transform of magnitude of jerk gyroscope body measure  
 
 For each the measurements, the authors created the following variables (taken verbatim
-from the UCI HAR website):
+from the UCI HAR website):   
     - mean(): Mean value  
     - std(): Standard deviation  
     - mad(): Median absolute deviation   
